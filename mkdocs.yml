@@ -1,0 +1,162 @@
+site_name: The Aadhaar Act
+site_url: https://www.comsect.in/aadhaar-act/
+site_author: Comsect®
+site_description: The Aadhaar (Targeted delivery of financial and other subsidies, benefits and services) Act, 2016
+theme:
+  name: material
+  language: en
+  logo: assets/ashoka-chakra-logo.png
+  favicon: assets/comsect-logo.png
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: light blue
+      accent: light blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  features:
+    - navigation.footer
+    - navigation.tabs
+    - navigation.sections
+    - content.tooltips
+    - content.code.copy
+    
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - footnotes
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - abbr
+  - attr_list
+  - md_in_html
+  - def_list
+  - pymdownx.snippets:
+     auto_append:
+        - includes/abbreviations.md
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://linkedin.com/company/comsect
+      name: Comsect™ on LinkedIn
+    - icon: fontawesome/brands/github
+      link: https://github.com/comsect
+      name: Comsect™ on GitHub
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/@comsect
+      name: Comsect™ on YouTube
+
+plugins:
+  - search:
+      lang: en
+  - minify:
+      minify_html: true
+  - social:
+      cards_layout_options:
+        background_color: "#06038D"
+  - glightbox
+
+nav:
+  - Introduction: index.md
+  - Chapter I - Preliminary:
+    - Section 1: en/1.md
+    - Section 2: en/2.md
+  - Chapter II - Enrolment:
+    - Section 3: en/3.md
+    - Section 3A: en/3A.md
+    - Section 4: en/4.md
+    - Section 5: en/5.md
+    - Section 6: en/6.md
+  - Chapter III - Authentication:
+    - Section 7: en/7.md
+    - Section 8: en/8.md
+    - Section 8A: en/8A.md
+    - Section 9: en/9.md
+    - Section 10: en/10.md
+  - Chapter IV - Unique Identification Authority of India:
+    - Section 11: en/11.md
+    - Section 12: en/12.md
+    - Section 13: en/13.md
+    - Section 14: en/14.md
+    - Section 15: en/15.md
+    - Section 16: en/16.md
+    - Section 17: en/17.md
+    - Section 18: en/18.md
+    - Section 19: en/19.md
+    - Section 20: en/20.md
+    - Section 21: en/21.md
+    - Section 22: en/22.md
+    - Section 23: en/23.md
+    - Section 23A: en/23A.md
+  - Chapter V - Grants, Accounts and Audit and Annual Report:
+    - Section 24: en/24.md
+    - Section 25: en/25.md
+    - Section 26: en/26.md
+    - Section 27: en/27.md
+  - Chapter VI - Protection of Information:
+    - Section 28: en/28.md
+    - Section 29: en/29.md
+    - Section 30: en/30.md
+    - Section 31: en/31.md
+    - Section 32: en/32.md
+    - Section 33: en/33.md
+  - Chapter VIA - Civil Penalties:
+    - Section 33A: en/33A.md
+    - Section 33B: en/33B.md
+    - Section 33C: en/33C.md
+    - Section 33D: en/33D.md
+    - Section 33E: en/33E.md
+    - Section 33F: en/33F.md
+  - Chapter VII - Offences and Penalties:
+    - Section 34: en/34.md
+    - Section 35: en/35.md
+    - Section 36: en/36.md
+    - Section 37: en/37.md
+    - Section 38: en/38.md
+    - Section 39: en/39.md
+    - Section 40: en/40.md
+    - Section 41: en/41.md
+    - Section 42: en/42.md
+    - Section 43: en/43.md
+    - Section 44: en/44.md
+    - Section 45: en/45.md
+    - Section 46: en/46.md
+    - Section 47: en/47.md
+  - Chapter VIII - Miscellaneous:
+    - Section 48: en/48.md
+    - Section 49: en/49.md
+    - Section 50: en/50.md
+    - Section 50A: en/50A.md
+    - Section 51: en/51.md
+    - Section 52: en/52.md
+    - Section 53: en/53.md
+    - Section 54: en/54.md
+    - Section 55: en/55.md
+    - Section 56: en/56.md
+    - Section 57: en/57.md
+    - Section 58: en/58.md
+    - Section 59: en/59.md
+
+copyright: Copyright &copy 2024 <a href="https://www.github.com/comsect">Comsect<sup>&reg;</sup></a>. All rights reserved. Read the <a href="/license" target="_blank">License</a>.
